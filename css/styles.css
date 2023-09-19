@@ -1,0 +1,182 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/work-sans-v19-latin-regular.woff2') format('woff2');
+  }
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  box-sizing: inherit;
+  height: 100%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-shadow: 0px 0px 50px 0px black;
+}
+.header {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.intro {
+  width: 100%;
+  height: 564px;
+  display: flex;
+  justify-content: space-between;
+}
+.section {
+    margin-top: 140px;
+  width: 100%;
+  height: 397px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 150px;
+  height: 40px;
+  margin-left: 100px;
+  margin-right: 165px;
+}
+.play {
+  width: 147px;
+  height: 50px;
+}
+.app {
+  width: 147px;
+  height: 50px;
+}
+.pul {
+  width: 458px;
+  height: 564px;
+  margin-right: 161px;
+}
+.samalyot {
+  width: 374px;
+  height: 397px;
+  margin-left: 180px;
+}
+.list {
+  display: flex;
+  align-items: center;
+}
+.item {
+  list-style-type: none;
+}
+.link {
+  margin-right: 40px;
+  text-decoration: none;
+  font-family: "Work Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: left;
+  color: rgba(34, 34, 34, 1);
+}
+.link:hover {
+  color: rgba(0, 130, 243, 1);
+}
+p {
+  font-family: "Work Sans";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+}
+.contact {
+  padding: 7.9px 25.97px;
+  transform: rotate(90deg);
+  width: 108px;
+  height: 36px;
+  margin-left: -2px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: rgba(57, 205, 204, 1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.yozuv {
+    margin-top: 167px;
+    width: 434px;
+    height: 302px;
+}
+.ilova {
+    width: 302px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.get {
+    width: 306px;
+height: 120px;
+font-family: "Work Sans";
+font-size: 55px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+}
+.instant {
+    margin-top: 32px;
+    margin-bottom: 30px;
+    width: 434px;
+height: 70px;
+font-family: "Work Sans";
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+}
+.yozuv1 {
+    width: 392px;
+    height: 282px;
+    margin-top: 64px;
+    margin-right: 300px;
+    margin-left: 144px;
+}
+.save {
+    width: 392px;
+height: 100px;
+font-family: "Work Sans";
+font-size: 45px;
+font-weight: 400;
+line-height: 50px;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+}
+.give {
+    margin-top: 32px;
+    margin-bottom: 30px;
+    width: 310px;
+height: 70px;
+font-family: "Work Sans";
+font-size: 24px;
+font-weight: 400;
+line-height: 35px;
+text-align: left;
+color: rgba(51, 51, 51, 1);
+}
